@@ -155,6 +155,7 @@ public class Click {
     }
 
     // adding comment
+    // adding second comment
 
     public static class DistinctUsers extends RichFlatMapFunction<Tuple2<String, String>, Tuple2<String, Integer>> {
         private transient ListState<String> usersState;
