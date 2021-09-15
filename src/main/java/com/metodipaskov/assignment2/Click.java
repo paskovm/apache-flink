@@ -154,6 +154,8 @@ public class Click {
         env.execute("Streaming Click");
     }
 
+    // adding comment
+
     public static class DistinctUsers extends RichFlatMapFunction<Tuple2<String, String>, Tuple2<String, Integer>> {
         private transient ListState<String> usersState;
 
